@@ -1,0 +1,47 @@
+const io = require('socket.io')(8000)
+
+const users = {}
+io.on('connection', socket =>{
+	# if any new user joins, let other users connect to the server knw!
+	 socket.on( new user joinging)
+	}
+	
+	# if someone sends a message, server
+	socket.on('send', message => {
+		socket.broadcast.emit()
+	})
+	socket.on('receuve', message => {
+		socket.broadcast.emit()
+	})
+)
+
+
+###########
+client.js
+###########
+document include script(defer)
+
+const socket = io('http://localhost:8000')
+
+const form = document.getElement(formid)
+messageInput = "(messageInp)
+messageContainer = "(.container)
+
+form.addEventListener('submit', (e)=>{
+	e.preventDefault();
+})
+
+const name = prompt("Enter your name")
+socket.emit(new user joint, name)
+
+# who joined the message
+socket.on('user-joined', data=>{
+	append a new div element
+})
+
+# who received the message
+socket.on('receive', message)
+
+# who disconnect documentation
+socket.id (unique id)
+

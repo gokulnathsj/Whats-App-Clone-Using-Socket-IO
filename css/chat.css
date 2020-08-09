@@ -1,0 +1,78 @@
+body,
+html {
+    height: 100%;
+    background: linear-gradient(to bottom, #33ccff 0%, #66ff66 100%);
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.chat-body {
+    position: relative;
+    top: 20px;
+    height: 500px;
+    margin: auto;
+    border: 2px solid red;
+    width: 50vw;
+    overflow-y: scroll;
+    border-radius: 7px;
+    /* overflow-x: hidden; */
+}
+
+.message {
+    width: 24%;
+    overflow: hidden;
+    padding: 10px 10px;
+    width: 24%;
+    color: #f1f1f2f2;
+    min-height: 32.5px;
+    padding: 6px 7px 8px 9px;
+    background-color: rgb(5, 71, 64);
+    border-radius: 7.2px;
+    margin: 5px;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.write {
+    height: 50px;
+    margin: auto;
+    position: relative;
+    background-color: rgb(30, 36, 40);
+    width: 50vw;
+    top: 20px;
+    padding-right: 3px;
+}
+
+.btn {
+    position: absolute;
+    background-color: #f1f1f2f2;
+    height: 38px;
+    color: black;
+    padding: 0;
+    width: 3.5vw;
+    float: right;
+    position: relative;
+    border-radius: 38px;
+    top: 5px;
+}
+
+.form-control {
+    position: absolute;
+    width: 46vw;
+    border-radius: 15px;
+    background-color: rgb(51, 56, 59);
+    border: 2px solid grey;
+    top: 5px;
+}
